@@ -1,0 +1,112 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+     >
+
+    <Button
+        android:id="@+id/chungpook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="32dp"
+        android:layout_x="160dp"
+        android:layout_y="190dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="충청북도" />
+
+    <Button
+        android:id="@+id/kyungki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_x="100dp"
+        android:layout_y="107dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="경기도" />
+
+    <Button
+        android:id="@+id/chungnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="237dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="충청남도" />
+
+    <Button
+        android:id="@+id/jeonpook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="23dp"
+        android:layout_x="108dp"
+        android:layout_y="333dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="전라북도" />
+
+    <Button
+        android:id="@+id/jeonnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:layout_marginLeft="15dp"
+        android:layout_x="87dp"
+        android:layout_y="435dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="전라남도" />
+
+    <Button
+        android:id="@+id/kyungnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_x="215dp"
+        android:layout_y="381dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="경상남도" />
+
+    <Button
+        android:id="@+id/kyungpook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="118dp"
+        android:layout_x="222dp"
+        android:layout_y="266dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="경상북도" />
+
+    <Button
+        android:id="@+id/jeju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="95dp"
+        android:layout_x="65dp"
+        android:layout_y="556dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="제주도" />
+
+    <Button
+        android:id="@+id/kangwondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="132dp"
+        android:layout_marginTop="100dp"
+        android:layout_x="203dp"
+        android:layout_y="85dp"
+        android:background="#00ff0000"
+        android:onClick="mClick"
+        android:text="강원도" />
+
+</AbsoluteLayout>
